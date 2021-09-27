@@ -11,6 +11,7 @@
   <remote fetch="git://github.com/TimesysGit"  name="Timesys"/>
   <remote fetch="git://github.com/meta-rust"  name="rust"/>
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
+  <remote fetch="ssh://github:/madobet/meta-phi" name="Phi"/>
 
   <project remote="yocto" revision="0275e68b0576cdefc19718e4b1977044f9f43f48" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="0be39721cea6e04c589a419f4bb07fabd0da6704" name="meta-freescale" path="sources/meta-freescale"/>
@@ -35,4 +36,6 @@
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
+  
+  <project remote="Phi" revision="46ecad49b3325a0511cc6cdfcd711de192290f80" name="meta-phi" path="sources/meta-phi"/>
 </manifest>
